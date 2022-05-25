@@ -59,6 +59,7 @@ operators.forEach(operatorClick => {
 // 숫자 클릭시 /////////////////////////////////////////////////////////////////////////////////////
 // 숫자가 담긴 div를 모두 변수에 담아줌.
 const numbers = document.querySelectorAll('.numbers > div');
+
 let numValue = "";
 numbers.forEach(numberClick => {
     numberClick.addEventListener('click', (num) => {
